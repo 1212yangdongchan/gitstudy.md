@@ -1,7 +1,7 @@
 ![Git logo](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https:%2F%2Fblog.kakaocdn.net%2Fdn%2FbeqB5p%2FbtqAcMtfn4Z%2FDXlthgM7hvTr5FRR7UrQl0%2Fimg.png)
 # Git</span>
 >Git의 개념
-**Git**이란 분산형 버전관리 시스템의 한 종류이며,               
+**Git**이란 분산형 버전관리 시스템의 한 종류이며,
  빠른 수행 속도에 중점을 둔다.
 
 ## Git의 필요성</span>
