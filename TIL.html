@@ -5,8 +5,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <p style="font-size:100px; color:red;">나혁이 어서오고~!</p>
-</body>
-</html>
+    <h1>우선 html은 element와 attribute로 이루어져있는데, element는 body안에 있는 형식?이고, attribute는 그 element안의 형식이다.</h1>
+    <p>예를 들어 만약 내가 빨갛고 50px의 글자크기로 안녕을 쓰고 싶다면, </p>
+    <p style="color:red;"
+    style="font-size:50px;">p는 element가 되고, 그 안에 있는 style="color:red;"와 style=font-size:50px;"은 attribute가 되는것이다.</p>
+    <p>element에는 여러가지 종류가 있는데, 사진을 첨부하고 싶다면 element<img>를 사용해 attribute엔 src를 넣어 이미지 주소를 넣으면 된다.</p>
+    <img width="400px"
+    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkyjHPCdsCX_JZxs5yCVJj8HbzqllPhYULKRHPPCzTFQ1JYeRnNgnhBoiY3HeLw4GS2Co&usqp=CAU">
+    <h1>css는 html의 head안에 style태그 안에 구현하게 되어있다.</h1>
+    이때 style안에 들어가는 .뒤의 내용이 클래스명이고, 클래스명 뒤의 {}안에 attribute를 만들어주면 html의 body안에 class속성에 css의 클래스 명만 넣어주면 디자인이 반영됩니다.
+    <p>예를 들어 이 글을 빨간색으로 쓰고싶다면<p class="color-primary">예시</p>가 되는것이다.</p>
+    <p>attribute에 여러 종류가 있듯이 css의 class를 다른 종류로 만들어도 된다. 만약 이번엔 글자크기를 조정하고 싶다면, css에 class를 하나 더 만들어서 똑같이 class명을 html의 body속 element에 넣어주면 된다.</p>
+    <p class="font-size">예시</p>
+    <p>이번엔 css파일을 하나 만들어서 위의 class들을 css파일에 저장해놓고 head의 style을 지워도 디자인들이 적용이 되는지 보겠다.</p>
+    <p class="color-primary font-size">예시</p>
+    <p>다음은 이벤트이다. 이벤트는 우리가 만든 웹페이지 내에서 무언가를 클릭하거나 스크롤할 때 발생하는데, 이벤트를 인식하기 위한 코드를 element에 넣어줘야 한다.</p>
+    <button style=font-size:30px; type="button" onclick="javascript:alert('click button!!')">Click</button>
+    <input style=font-size:30px; type="text">
+    <input style=font-size:30px; type="number">
+    <select class="select-style">
+        <option>Seoul</option>
+        <option>Jeju</option>
+    </select>
+    <table class="tb">
+        <thead>
+            <tr>
+                <td>이름</td>
+                <td>지역</td>
+                <td>전화번호</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>홍길동</td>
+                <td>서울</td>
+                <td>010-1111-1111</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p>css에서 position속성은 HTML문서 상에서 요소가 배치되는 방식을 결정한다. 많은경우, position속성은 요소의 정확한 위치 지정을 위해서 top, left, bottom, right속성과 함께 사용된다.</p>
+    <p>position속성을 별도로 지정해주지 않으면 기본값인 static이 적용된다.</p>
+    <p>또, position속성값이 stat
